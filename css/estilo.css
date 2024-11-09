@@ -1,0 +1,42 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e82222; /* Fondo oscuro para la página */
+    color: #333; /* Color de texto para el cuerpo */
+}
+
+header, footer {
+    background-color: #000000; /* Fondo negro para el encabezado y pie de página */
+    color: #b0e57c; /* Texto en verde pastel */
+}
+
+h1, h2 {
+    color: #b0e57c; /* Verde pastel para títulos */
+}
+
+a {
+    text-decoration: none;
+    color: #b0e57c; /* Verde pastel para enlaces */
+}
+
+a:hover {
+    color: #ff6f00; /* Color de hover para enlaces */
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #b0e57c !important; /* Asegura que los enlaces del menú usen verde pastel */
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el área de contenido principal */
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de pie de página */
+footer a {
+    margin: 0 10px;
+    color: #b0e57c; /* Verde pastel */
+}
